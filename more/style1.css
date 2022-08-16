@@ -340,7 +340,7 @@ color: var(--first-color);
   text-align: center;
   height: 55rem;
   width: 15rem;
-  margin-left: 11rem;
+  margin: 2rem;
 }
 .about__span span{
   transition: 1s;
