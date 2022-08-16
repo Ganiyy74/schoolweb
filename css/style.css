@@ -149,8 +149,10 @@ a{
     background-color: brown;
     box-shadow: 0 3px 4px rgba(146, 161, 176, 0.95);
 }
-.l-header img{
+.l-header h2{
     text-align: left;
+    color: white;
+    height: 2rem;
 }
 .bd-grid{
     max-width: 1024px;
@@ -635,7 +637,7 @@ tfoot{
     .nav__list{
         display: flex;
         padding-top: 0;
-        margin-right: 3rem;
+        /* margin-right: 3rem; */
     }
     .nav__link{
         color: var(--first-color);
@@ -736,7 +738,7 @@ body{
     top: 3rem;
    }
 .nav{
-    height: calc(--header-height) + 2rem;
+    height: calc(--header-height) + 1rem;
 }
 .nav__list{
     display: flex;
@@ -871,7 +873,7 @@ table{
         background-color: var(--second-color);
         transition: 0.5s;
        } */
-       .header { 
+       /* .header { 
         padding-top: 1rem;
         padding-bottom: 1rem;
         display: flex;
@@ -907,7 +909,7 @@ table{
         cursor: pointer;
         color: var(--black);
          display: none;
-    }
+    } */
     .home {
         padding: 0;
         width: 100%;
